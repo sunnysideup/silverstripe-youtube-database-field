@@ -1,0 +1,34 @@
+{
+    "name": "sunnysideup/youtube-database.git",
+    "type": "silverstripe-vendormodule",
+    "description": "Saves a youtube video in the database",
+    "keywords": [
+        "Silverstripe-CMS",
+        "CMS",
+        "Silverstripe",
+        "youtube",
+        "You Tube",
+        "database",
+        "varchar",
+        "field",
+        "model"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Nicolaas Francken",
+            "youtube": "modules@sunnysideup.co.nz",
+            "role": "lead developer"
+        }
+    ],
+    "require": {
+        "silverstripe/recipe-cms": "^4.4",
+        "edgarindustries/youtubefield": "dev-master"
+    },
+    "extra": [],
+    "autoload": {
+        "psr-4": {
+            "Sunnysideup\\YouTubeDatabaseField\\": "src/"
+        }
+    }
+}

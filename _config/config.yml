@@ -1,0 +1,3 @@
+SilverStripe\Core\Injector\Injector:
+  YouTubeVideoCode:
+    class: Sunnysideup\YouTubeDatabaseField\Model\Fieldtypes\YouTubeVideoCode
