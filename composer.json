@@ -1,5 +1,5 @@
 {
-    "name": "sunnysideup/youtube-database.git",
+    "name": "sunnysideup/youtube-database-field",
     "type": "silverstripe-vendormodule",
     "description": "Saves a youtube video in the database",
     "keywords": [
