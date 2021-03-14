@@ -2,11 +2,11 @@
 
 namespace Sunnysideup\YouTubeDatabaseField\Model\Fieldtypes;
 
+use EdgarIndustries\YouTubeField\YouTubeField;
 use SilverStripe\Forms\NullableField;
 use SilverStripe\ORM\FieldType\DBHTMLText;
-use SilverStripe\ORM\FieldType\DBVarchar;
 
-use EdgarIndustries\YouTubeField\YouTubeField;
+use SilverStripe\ORM\FieldType\DBVarchar;
 
 class YouTubeVideoCode extends DBVarchar
 {
