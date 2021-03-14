@@ -7,6 +7,8 @@ use SilverStripe\Forms\YouTubeField;
 use SilverStripe\ORM\FieldType\DBHTMLText;
 use SilverStripe\ORM\FieldType\DBVarchar;
 
+use EdgarIndustries\YouTubeField\YouTubeField;
+
 class YouTubeVideoCode extends DBVarchar
 {
     private static $casting = [
@@ -44,12 +46,12 @@ class YouTubeVideoCode extends DBVarchar
      * @param string $title (optional)
      * @param array $params (optional)
      *
-     * @return YoutubeField|NullableField
+     * @return YouTubeField|NullableField
      */
     public function scaffoldFormField($title = null, $params = null)
     {
         if (! $this->nullifyEmpty) {
-            return NullableField::create(YoutubeField::create($this->name, $title));
+            return NullableField::create(YouTubeField::create($this->name, $title));
         }
         return YoutubeField::create($this->name, $title);
     }
