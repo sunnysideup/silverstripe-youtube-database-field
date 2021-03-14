@@ -3,7 +3,6 @@
 namespace Sunnysideup\YouTubeDatabaseField\Model\Fieldtypes;
 
 use SilverStripe\Forms\NullableField;
-use SilverStripe\Forms\YouTubeField;
 use SilverStripe\ORM\FieldType\DBHTMLText;
 use SilverStripe\ORM\FieldType\DBVarchar;
 
