@@ -16,8 +16,6 @@ class YouTubeVideoCode extends DBVarchar
 
     /**
      * Obfuscate all matching youtubes
-     *
-     * @return DBHTMLText
      */
     public function Embed(): DBHTMLText
     {
@@ -26,14 +24,12 @@ class YouTubeVideoCode extends DBVarchar
 
     /**
      * Obfuscate all matching youtubes
-     *
-     * @return DBHTMLText
      */
     public function getEmbed(): DBHTMLText
     {
         $html = $this->renderWith(self::class . 'Embed');
 
-        /** @var DBHTMLText */
+        /** @var DBHTMLText $var */
         $var = DBHTMLText::create_field('HTMLText', $html);
         $var->RAW();
         return $var;
