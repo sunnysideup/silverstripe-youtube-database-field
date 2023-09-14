@@ -1,3 +1,6 @@
 <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/$Code" allowfullscreen></iframe>
+    <iframe
+        src="https://www.youtube.com/embed/{$Value}"
+        allowfullscreen
+    ></iframe>
 </div>
