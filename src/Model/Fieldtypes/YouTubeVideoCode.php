@@ -18,7 +18,7 @@ class YouTubeVideoCode extends DBVarchar
      */
     public function Embed(): DBHTMLText
     {
-        return $this->Embed();
+        return $this->getEmbed();
     }
 
     /**
